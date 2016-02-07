@@ -25,7 +25,7 @@ import retrofit2.Response;
 
 public class MainSearchActivity extends AppCompatActivity {
     private static final int MIN_TEXT_LENGTH = 4;
-    private static final String EMPTY_STRING = "";
+    private static final String EMPTY_ERROR_MESSAGE = "";
 
     public boolean mHasError;
     private TextInputLayout textInputLayout;
@@ -104,7 +104,7 @@ public class MainSearchActivity extends AppCompatActivity {
     }
 
     private void hideError() {
-        textInputLayout.setError(EMPTY_STRING);
+        textInputLayout.setError(EMPTY_ERROR_MESSAGE);
     }
 
     public interface OnError {
