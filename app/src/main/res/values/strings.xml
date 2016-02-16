@@ -5,4 +5,5 @@
     <string name="error">Please put more than 4 characters</string>
     <string name="hint">Insert number below</string>
     <string name="getlatestnumber">Use latest number</string>
+    <string name="title_activity_splash">SplashActivity</string>
 </resources>

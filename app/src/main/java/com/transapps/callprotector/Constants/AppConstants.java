@@ -5,6 +5,6 @@ package com.transapps.callprotector.Constants;
  */
 public interface AppConstants {
 
-    public static final String SERVER_URL= "http://dev.exploring-romania.com/rest/api/trustshare/";
+    public static final String SERVER_URL= "http://128.0.47.15/trustshare/rest/";
 
 }

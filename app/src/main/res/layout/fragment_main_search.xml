@@ -6,8 +6,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.transapps.callprotector.MainSearchActivityFragment"
-    tools:showIn="@layout/activity_main_search">
+    tools:context=".UI.Fragments.MainSearchActivityFragment"
+    tools:showIn="@layout/activity_main_layout">
 
 
 </RelativeLayout>
