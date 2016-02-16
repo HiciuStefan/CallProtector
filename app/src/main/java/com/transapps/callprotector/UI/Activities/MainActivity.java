@@ -17,7 +17,7 @@ import com.transapps.callprotector.Models.ModelNumberQuerry;
 import com.transapps.callprotector.R;
 import com.transapps.callprotector.RestRequests.GetRequests;
 import com.transapps.callprotector.RestRequests.RetrofitAdapter;
-import com.transapps.callprotector.Services.IncomingCalls.BackgroundCallsService;
+import com.transapps.callprotector.Services.IncomingCalls1.BackgroundCallsService;
 
 import java.lang.ref.WeakReference;
 

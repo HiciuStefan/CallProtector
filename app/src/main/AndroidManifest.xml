@@ -22,7 +22,7 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
-        <service android:name=".Services.IncomingCalls.BackgroundCallsService" />
+        <service android:name=".Services.IncomingCalls1.BackgroundCallsService" />
 
         <activity
             android:name=".UI.Activities.SplashActivity"
