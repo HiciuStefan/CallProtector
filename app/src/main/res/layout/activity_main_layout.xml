@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:fitsSystemWindows="true"
     tools:context="com.example.hiciu.materialtest1.activities.ThirdActivity">
 
@@ -12,32 +11,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:layout_scrollFlags="scroll|snap"/>
-
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/main.collapsing"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:fitsSystemWindows="true"
-            app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginEnd="64dp"
-            app:expandedTitleMarginStart="48dp"
+            android:layout_height="150dp"
             app:layout_scrollFlags="scroll|snap">
-
-            <ImageView
-                android:id="@+id/main.image1"
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_scrollFlags="scroll|snap"/>
+           <!-- <ImageView
+                android:id="@+id/image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:fitsSystemWindows="true"
 
-                app:layout_collapseMode="parallax" />
+                android:src="@drawable/imagine1"
+                app:layout_collapseMode="parallax"/>-->
+
+
 
 
         </android.support.design.widget.CollapsingToolbarLayout>
@@ -50,9 +43,7 @@
             app:accentColor="@color/colorAccent"
             app:textColor="#FFFFFF" />
     </android.support.design.widget.AppBarLayout>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp" />
+
 
     <include layout="@layout/content_main_activity" />
 
