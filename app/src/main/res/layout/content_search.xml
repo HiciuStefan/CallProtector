@@ -65,6 +65,21 @@
             android:src="@android:drawable/ic_menu_recent_history"
             android:text="@string/getlatestnumber" />
 
+        <ImageView
+            android:id="@+id/addNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchNumber"
+            android:layout_toLeftOf="@+id/recentNumber"
+            android:src="@android:drawable/ic_menu_add"
+            android:text="@string/getlatestnumber" />
+
     </RelativeLayout>
 
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/resultsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/custom_row_search" />
 </LinearLayout>

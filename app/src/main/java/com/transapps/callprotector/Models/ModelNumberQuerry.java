@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class ModelNumberQuerry {
     @SerializedName ("status")
-    boolean status;
+    public boolean status;
     @SerializedName ("records")
-    List<Records> theRecords;
+    public List<Records> theRecords;
 }

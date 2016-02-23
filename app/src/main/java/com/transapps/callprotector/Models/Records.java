@@ -6,10 +6,10 @@ import java.util.Date;
  * Created by Hiciu on 2/16/2016.
  */
 public class Records {
-    String id;
-    String phone_number;
-    String details;
-    String markId;
-    String userId;
-    Date date;
+    public String id;
+    public String phone_number;
+    public String details;
+    public String markId;
+    public String userId;
+    public Date date;
 }
